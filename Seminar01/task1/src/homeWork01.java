@@ -4,9 +4,8 @@ public class homeWork01 {
 
         if (args.length == 0) {
             // При отправке кода на Выполнение, вы можете варьировать эти параметры
-            n = 4;
-        }
-        else{
+            n = 0;
+        } else {
             n = Integer.parseInt(args[0]);
         }
 
@@ -22,7 +21,8 @@ class Answer1 {
 //  Вычислить n-ое треугольное число(сумма чисел от 1 до n).
 //  Общая формула для n n-го по порядку треугольного числа:
 //  Tn = n * ( n + 1 ) /2 , n = 1 , 2 , 3 ...
-        return n * (n + 1) / 2;
+        if (n < 1) return -1;
+        else return n * (n + 1) / 2;
 //       another solution:
 //       int sum = 0;
 //       for(int i = 1; i <= n; i++){

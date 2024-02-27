@@ -1,12 +1,12 @@
 public class homeWork0102 {
     public static void main(String[] args) {
 
-        Answer ans = new Answer();
+        Answer2 ans = new Answer2();
         ans.printPrimeNums();
     }
 }
 
-class Answer {
+class Answer2 {
     public void printPrimeNums(){
 //        Напишите функцию printPrimeNums, которая выведет на экран все простые числа
 //        в промежутке от 1 до 1000, каждое на новой строке.
