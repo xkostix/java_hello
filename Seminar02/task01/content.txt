@@ -1,0 +1,9 @@
+.idea
+content.txt
+log.txt
+log.txt.lck
+new.txt
+out
+src
+task01.iml
+test1.txt
